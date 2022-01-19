@@ -23,7 +23,11 @@ module.exports = {
     filename: "bundle.js",
   },
   devServer: {
-    client: false,
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+    compress: true,
+    port: 8080,
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
   devtool: "source-map",
