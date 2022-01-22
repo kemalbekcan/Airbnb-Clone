@@ -73,11 +73,11 @@ npm & yarn install
 
 ## Roadmap
 
-- [ x ] Eslint Configure<br />
-- [ x ] Prettier Configure<br />
-- [ x ] React Configure<br />
-- [ x ] Create Styles Folder<br />
-- [ x ] Create Test Folder<br />
+- [x] Eslint Configure<br />
+- [x] Prettier Configure<br />
+- [x] React Configure<br />
+- [x] Create Styles Folder<br />
+- [x] Create Test Folder<br />
 - [ ] Create Header Component<br />
 - [ ] Create Main Componet<br />
 - [ ] Create Footer Component<br />
