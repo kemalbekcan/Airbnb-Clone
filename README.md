@@ -11,6 +11,14 @@ Lorem Ipsum
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [React.js](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Jest](https://jestjs.io/)
+- [React Test Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Graphql](https://graphql.org/)
+- [Nodejs](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Mochajs](https://mochajs.org/)
+- [Socket IO](https://socket.io/)
 
 ## Getting Started
 
@@ -42,7 +50,7 @@ npm & yarn install
 2) npm & yarn start
 ```
 
-## Tool and Library
+## Tools and Libraries
 
 #### Client
 
@@ -54,17 +62,26 @@ npm & yarn install
 - Eslint
 - Prettier
 - Webpack
+- Graphql
 
 ### Backend
 
 - Nodejs
-- Expressjs
+- Express
+- Sequelize
+- Socket IO
 
 ## Roadmap
 
 - [ x ] Eslint Configure<br />
 - [ x ] Prettier Configure<br />
-- [ x ] React Configure
+- [ x ] React Configure<br />
+- [ x ] Create Styles Folder<br />
+- [ x ] Create Test Folder<br />
+- [ ] Create Header Component<br />
+- [ ] Create Main Componet<br />
+- [ ] Create Footer Component<br />
+- [ ] Install React Router Dom<br />
 
 ## License
 
