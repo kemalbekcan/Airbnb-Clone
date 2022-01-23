@@ -79,7 +79,8 @@ npm & yarn install
 - [x] Create Styles Folder<br />
 - [x] Create Test Folder<br />
 - [ ] Create Header Component<br />
-- [ ] Create Main Componet<br />
+- [ ] Create Main Component<br />
+- [ ] Create Slider Component<br />
 - [ ] Create Footer Component<br />
 - [ ] Install React Router Dom<br />
 
