@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  grid-gap: 16px;
+  @import 'header';
+  .advertisement {
+    border: 1px solid red;
+  }
+  .journey {
+    border: 1px solid blue;
+  }
+}
