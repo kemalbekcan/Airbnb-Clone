@@ -25,12 +25,18 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
+    historyApiFallback: true,
     static: {
       directory: path.join(__dirname, 'public'),
     },
     compress: true,
     port: 8080,
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.ProvidePlugin({
+      React: 'react',
+    }),
+  ],
   devtool: 'source-map',
 };
