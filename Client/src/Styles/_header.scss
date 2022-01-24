@@ -1,0 +1,19 @@
+@import 'vars';
+.header {
+  height: 80px;
+  background-color: black;
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $f-mkcy-f;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+      color: $j-qkgmf;
+    }
+  }
+}
