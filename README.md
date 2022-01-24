@@ -83,6 +83,7 @@ npm & yarn install
 - [ ] Create Slider Component<br />
 - [ ] Create Footer Component<br />
 - [ ] Install React Router Dom<br />
+- [ ] Backend Configration<br />
 
 ## License
 
