@@ -1,13 +1,50 @@
 import React, { Fragment } from 'react';
+import { Icon } from '../icons';
 function Header() {
   return (
     <Fragment>
-      <div>
-        <h3>COVID-19 çerçevesinde aldığımız önlemler hakkındaki en güncel bilgileri öğrenin</h3>
-        <div>Logo</div>
-        <div>Menu</div>
-        <div>Profile</div>
-      </div>
+      <header className="header">
+        <div className="header--down">
+          <p className="header_info">
+            COVID-19 çerçevesinde aldığımız önlemler hakkındaki en güncel bilgileri öğrenin
+          </p>
+          <div className="menu">
+            <div className="logo">
+              <a href="#">
+                <Icon name="airbnb" size={32} />
+              </a>
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <button>Konaklama yerleri</button>
+                </li>
+                <li>
+                  <button>Deneyimler</button>
+                </li>
+                <li>
+                  <a href="#">Çevrim içi deneyimler </a>
+                </li>
+              </ul>
+            </nav>
+            <div className="account">
+              <ul>
+                <li>
+                  <a href="#">Ev sahibi olun</a>
+                </li>
+                <li>
+                  <button>
+                    <Icon name="earht" size={16} />
+                  </button>
+                </li>
+                <li>
+                  <button></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
     </Fragment>
   );
 }
