@@ -6,15 +6,21 @@
   box-sizing: border-box;
 }
 .wrapper {
-  margin: 0 auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 100%);
+  grid-template-columns: auto;
   grid-gap: 16px;
   @import 'header';
   .advertisement {
-    border: 1px solid red;
   }
   .journey {
-    border: 1px solid blue;
+  }
+  .experience {
+  }
+  .ask {
+  }
+  footer {
   }
 }
