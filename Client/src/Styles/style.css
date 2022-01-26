@@ -530,40 +530,127 @@ template {
 }
 
 .wrapper {
-  margin: 0 auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (100%)[auto-fill];
-      grid-template-columns: repeat(auto-fill, 100%);
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
   grid-gap: 16px;
 }
 
 .wrapper .header {
-  height: 80px;
+  height: 130px;
   background-color: black;
 }
 
-.wrapper .header h3 {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
-  font-weight: 600;
+.wrapper .header .header--down {
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  width: 90%;
+}
+
+.wrapper .header .header--down .header_info {
+  text-align: center;
   text-decoration: underline;
+  color: #ffffff;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .header .header--down .header_info:hover {
+  color: #dddddd;
+  cursor: pointer;
+}
+
+.wrapper .header .header--down .menu {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header .header--down .menu .logo,
+.wrapper .header .header--down .menu nav,
+.wrapper .header .header--down .menu .account {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.wrapper .header .header--down .menu .logo {
+  padding: 10px;
+}
+
+.wrapper .header .header--down .menu nav {
   text-align: center;
 }
 
-.wrapper .header h3:hover {
+.wrapper .header .header--down .menu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .header .header--down .menu nav ul li {
+  padding: 10px;
+}
+
+.wrapper .header .header--down .menu nav ul li button {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.wrapper .header .header--down .menu nav ul li button:hover {
   cursor: pointer;
-  color: #dddddd;
 }
 
-.wrapper .advertisement {
-  border: 1px solid red;
+.wrapper .header .header--down .menu nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.wrapper .journey {
-  border: 1px solid blue;
+.wrapper .header .header--down .menu .account {
+  border: 1px solid purple;
+}
+
+.wrapper .header .header--down .menu .account ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.wrapper .header .header--down .menu .account ul li button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.wrapper .header .header--down .menu .account ul li button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
