@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Icon } from '../icons';
+import { AiOutlineMenu } from 'react-icons/ai';
 function Header() {
   return (
     <Fragment>
@@ -33,12 +34,15 @@ function Header() {
                   <a href="#">Ev sahibi olun</a>
                 </li>
                 <li>
-                  <button>
+                  <button className="header_language">
                     <Icon name="earht" size={16} />
                   </button>
                 </li>
                 <li>
-                  <button></button>
+                  <button className="header_profile-button">
+                    <AiOutlineMenu className="header_hamburger-icon" />
+                    <Icon name="userGravatar" size={32} />
+                  </button>
                 </li>
               </ul>
             </div>
