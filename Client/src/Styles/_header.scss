@@ -1,19 +1,80 @@
 @import 'vars';
 .header {
-  height: 80px;
+  height: 130px;
   background-color: black;
-  h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18px;
-    color: $f-mkcy-f;
-    font-weight: 600;
-    text-decoration: underline;
-    text-align: center;
-    &:hover {
-      cursor: pointer;
-      color: $j-qkgmf;
+  .header--down {
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    width: 90%;
+    .header_info {
+      text-align: center;
+      text-decoration: underline;
+      color: $f-mkcy-f;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        color: $j-qkgmf;
+        cursor: pointer;
+      }
+    }
+    .menu {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      .logo,
+      nav,
+      .account {
+        flex: 1 0 auto;
+      }
+      .logo {
+        padding: 10px;
+      }
+      nav {
+        text-align: center;
+        ul {
+          display: flex;
+          justify-content: center;
+          li {
+            padding: 10px;
+            button {
+              border: none;
+              background-color: transparent;
+              color: $f-mkcy-f;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+            a {
+              color: $f-mkcy-f;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .account {
+        border: 1px solid purple;
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          li {
+            button {
+              border: none;
+              background-color: transparent;
+              color: white;
+              width: 32px;
+              height: 32px;
+              border-radius: 32px;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
