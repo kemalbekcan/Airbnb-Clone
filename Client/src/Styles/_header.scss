@@ -27,7 +27,7 @@
       .logo,
       nav,
       .account {
-        flex: 1 0 auto;
+        flex: 1 1 auto;
       }
       .logo {
         padding: 10px;
@@ -37,6 +37,7 @@
         ul {
           display: flex;
           justify-content: center;
+          transform: translateX(10%);
           li {
             padding: 10px;
             button {
@@ -55,19 +56,41 @@
         }
       }
       .account {
-        border: 1px solid purple;
+        display: flex;
+        justify-content: end;
+        align-items: center;
         ul {
           display: flex;
           align-items: center;
           gap: 10px;
           li {
-            button {
+            a {
+              text-decoration: none;
+              color: $f-mkcy-f;
+            }
+            .header_language {
               border: none;
               background-color: transparent;
-              color: white;
+              color: $f-mkcy-f;
               width: 32px;
               height: 32px;
               border-radius: 32px;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+            .header_profile-button {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 80px;
+              border: none;
+              border-radius: 20px;
+              padding: 5px;
+              background-color: $f-mkcy-f;
+              .header_hamburger-icon {
+                margin-left: 5px;
+              }
               &:hover {
                 cursor: pointer;
               }
