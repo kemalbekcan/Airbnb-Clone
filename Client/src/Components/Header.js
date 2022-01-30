@@ -47,6 +47,9 @@ function Header() {
               </ul>
             </div>
           </div>
+          <div className="header-search">
+            <div></div>
+          </div>
         </div>
       </header>
     </Fragment>
