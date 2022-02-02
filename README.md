@@ -78,7 +78,8 @@ npm & yarn install
 - [x] React Configure<br />
 - [x] Create Styles Folder<br />
 - [x] Create Test Folder<br />
-- [ ] Create Header Component<br />
+- [x] Create Header Component<br />
+- [ ] Header Component Test<br />
 - [ ] Create Main Component<br />
 - [ ] Create Slider Component<br />
 - [ ] Create Footer Component<br />
