@@ -1,0 +1,13 @@
+version: "1.0"
+
+services:
+  app:
+    container_name: airbnb-rest-api
+    image: airbnb-rest-api
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3000:3000

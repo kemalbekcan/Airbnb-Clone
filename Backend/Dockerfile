@@ -3,5 +3,5 @@ WORKDIR /server
 COPY package.json /server
 RUN npm install
 COPY . /server
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
 EXPOSE 3000
