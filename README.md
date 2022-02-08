@@ -79,6 +79,7 @@ npm & yarn install
 - [x] Create Styles Folder<br />
 - [x] Create Test Folder<br />
 - [x] Create Header Component<br />
+- [x] Create Cookiebar Component<br />
 - [ ] Header Component Test<br />
 - [ ] Create Main Component<br />
 - [ ] Create Slider Component<br />
@@ -86,6 +87,11 @@ npm & yarn install
 - [ ] Install React Router Dom<br />
 - [x] Docker Configration<br />
 - [ ] Backend Configration<br />
+
+## Test
+
+- [ ] Completed Header component test<br />
+- [ ] Completed Cookiebar component test<br />
 
 ## License
 
