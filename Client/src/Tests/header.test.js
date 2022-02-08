@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Header from '../Components/Header';
 
-test('sadsa', () => {
+test('debug', () => {
   const { debug } = render(<Header />);
   debug();
 });
