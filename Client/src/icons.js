@@ -1,3 +1,4 @@
+import React from 'react'
 const airbnbIcon = ({ size }) => {
   return (
     <svg width={size} height={size + 2} fill="white">
