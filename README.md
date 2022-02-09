@@ -80,7 +80,6 @@ npm & yarn install
 - [x] Create Test Folder<br />
 - [x] Create Header Component<br />
 - [x] Create Cookiebar Component<br />
-- [ ] Header Component Test<br />
 - [ ] Create Main Component<br />
 - [ ] Create Slider Component<br />
 - [ ] Create Footer Component<br />
