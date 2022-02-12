@@ -85,12 +85,15 @@ npm & yarn install
 - [ ] Create Footer Component<br />
 - [ ] Install React Router Dom<br />
 - [x] Docker Configration<br />
+- [] Aws S3 Configration <br />
 - [ ] Backend Configration<br />
 
 ## Test
 
 - [ ] Completed Header component test<br />
 - [ ] Completed Cookiebar component test<br />
+- [ ] Completed Main component test <br />
+- [ ] Completed Footer component test<br />
 
 ## License
 
