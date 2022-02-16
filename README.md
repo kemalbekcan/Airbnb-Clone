@@ -70,6 +70,7 @@ npm & yarn install
 - Express
 - Sequelize
 - Socket IO
+- Docker
 
 ## Roadmap
 
