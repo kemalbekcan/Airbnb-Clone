@@ -69,6 +69,7 @@ npm & yarn install
 - Nodejs
 - Express
 - Sequelize
+- PostgreSQL
 - Socket IO
 - Docker
 
